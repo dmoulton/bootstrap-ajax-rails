@@ -16,7 +16,8 @@ And then execute:
 
 Add this to app/assets/javascripts/application.js, making sure its after any jquery references
 
-    //= require bootstrap-ajax
+    //= require bootstrap-ajax 
+    //= require spin.min
 
 That should do it.
 
