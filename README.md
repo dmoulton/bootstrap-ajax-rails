@@ -1,24 +1,24 @@
 # Bootstrap::Ajax::Rails
 
-TODO: Write a gem description
+Railsified gem of bootstrap-ajax to make it a little easier to use.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'bootstrap-ajax-rails'
+    gem 'bootstrap-ajax-rails', :git=>'git://github.com/dmoulton/bootstrap-ajax-rails.git'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install bootstrap-ajax-rails
-
 ## Usage
 
-TODO: Write usage instructions here
+Add this to app/assets/javascripts/application.js, making sure its after any jquery references
+
+    //= require bootstrap-ajax
+
+That should do it.
 
 ## Contributing
 
